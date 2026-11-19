@@ -36,13 +36,13 @@ Aniket Daharwal
 ## Sample Output
 
 ### 1. Customer Lifetime Value (Top Spenders)
-![Customer Lifetime Value](screenshots/query1_total_spent.png)
+![Customer Lifetime Value](screenshots/query1_total_spent.png.png)
 
 ### 2. Category-wise Sales Performance
-![Category Sales](screenshots/query2_category_sales.png)
+![Category Sales](screenshots/query2_category_sales.png.png)
 
 ### 3. Products Priced Above Overall Average
-![Above Average Price](screenshots/query3_above_average_price.png)
+![Above Average Price](screenshots/query3_above_average_price.png.png)
 
 ### 4. Products Priced Above Category Average (Correlated Subquery)
-![Above Category Average](screenshots/query4_above_category_average.png)
+![Above Category Average](screenshots/query4_above_category_average.png.png)
