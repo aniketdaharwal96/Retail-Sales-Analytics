@@ -23,6 +23,24 @@ and subqueries.
 3. Products priced above overall average (subquery)
 4. Products priced above their category average (correlated subquery)
 
+## Sample Output
+
+### 1. Customer Lifetime Value (Top Spenders)
+![Customer Lifetime Value](screenshots/query1_total_spent.png.png)
+**Insight:** Ananya Nair is the top spender with ₹26,695, followed by Sneha Verma (₹19,997).
+
+### 2. Category-wise Sales Performance
+![Category Sales](screenshots/query2_category_sales.png.png)
+**Insight:** Electronics generates the highest revenue (₹72,078) with 22 units sold.
+
+### 3. Products Priced Above Overall Average
+![Above Average Price](screenshots/query3_above_average_price.png.png)
+**Insight:** Only Gaming Monitor and External SSD 1TB are priced above the store average.
+
+### 4. Products Priced Above Category Average (Correlated Subquery)
+![Above Category Average](screenshots/query4_above_category_average.png.png)
+**Insight:** Gaming Monitor and Webcam HD are priced above their own category average.
+
 ## How to Run
 1. Open Oracle SQL Developer or Oracle Live SQL
 2. Run `1_schema.sql`, then `2_insert_data.sql`, then `3_queries.sql`
@@ -33,16 +51,4 @@ Oracle SQL
 ## Author
 Aniket Daharwal
 
-## Sample Output
 
-### 1. Customer Lifetime Value (Top Spenders)
-![Customer Lifetime Value](screenshots/query1_total_spent.png.png)
-
-### 2. Category-wise Sales Performance
-![Category Sales](screenshots/query2_category_sales.png.png)
-
-### 3. Products Priced Above Overall Average
-![Above Average Price](screenshots/query3_above_average_price.png.png)
-
-### 4. Products Priced Above Category Average (Correlated Subquery)
-![Above Category Average](screenshots/query4_above_category_average.png.png)
